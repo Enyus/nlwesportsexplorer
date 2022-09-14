@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-image: url("./public/background.jpg");
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+header {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto 0 auto;
+}
+
+header img {
+    display: block;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #9572FC 0%, #47E7AD 50%, #E2D45C 100%);
+    padding: 4px;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;   
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #47E7AD 50%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A2634;
+    padding: 24px 32px 32px 32px;
+    border-radius: 8px;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #a1a1aa;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.card__game {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.channel__list img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.redes__list img {
+    width: 32px;
+}

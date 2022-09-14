@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="./public/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NLW E-Sports</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -13,76 +14,91 @@
         <img src="https://github.com/Enyus.png" alt="Foto de perfil Cássio S. Santini">
     </header>
 
-    <section class="card">
-        <h2>Meus jogos</h2>
-        <p>Os games que eu mais curto jogar!</p>
-        <ul>
-            <li>
-                <a href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V" target="_blank">
-                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="Imagem do jogo GTA V">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/directory/game/Minecraft" target="_blank">
-                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg" alt="Imagem do jogo Minecraft">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/directory/game/Project%20Zomboid" target="_blank">
-                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/31339_IGDB-188x250.jpg" alt="Imagem do jogo Zomboid">
-                </a>
-            </li>
-        </ul>
-    </section>
+    <main>
+        <section>
+            <div>
+                <h2>Meus jogos</h2>
+                <p>Os games que eu mais curto jogar!</p>
+                <ul>
+                    <li>
+                        <a href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V" target="_blank">
+                            <img class="card__game" src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg"
+                                alt="Imagem do jogo GTA V">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/directory/game/Minecraft" target="_blank">
+                            <img class="card__game" src="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg"
+                                alt="Imagem do jogo Minecraft">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/directory/game/Project%20Zomboid" target="_blank">
+                            <img class="card__game" src="https://static-cdn.jtvnw.net/ttv-boxart/31339_IGDB-188x250.jpg"
+                                alt="Imagem do jogo Zomboid">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section class="card">
-        <h2>Canais e Streamers</h2>
-        <p>Lista de canais e transmissões que não perco!</p>
-        <ul>
-            <li>
-                <a href="https://www.twitch.tv/gaguinhoo157" target="_blank">
-                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/d7d5b8df-55ce-4172-8a41-39538d633374-profile_image-70x70.png" alt="Imagem de gaguinhoo157">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/jenfirer" target="_blank">
-                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0b32cf49-b16d-4a18-ab25-d247971f0124-profile_image-70x70.png" alt="Imagem de jenfirer">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/casimito" target="_blank">
-                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-70x70.png" alt="Imagem de casimito">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/mark_martinsbr" target="_blank">
-                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/9e4f7448-b662-4f37-b802-a9c474faef89-profile_image-70x70.png" alt="Imagem de mark_martinsbr">
-                </a>
-            </li>
-        </ul>
-    </section>
-    
-    <section class="card">
-        <h2>Minhas Redes</h2>
-        <p>Se conecte comigo agora mesmo!</p>
-        <ul>
-            <li>
-                <a href="https://github.com/Enyus" target="_blank">
-                    <img src="./public/github.png" alt="Logo do Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/cssantini/" target="_blank">
-                    <img src="./public/instagram.png" alt="Logo do Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/c%C3%A1ssio-sandrigo-santini-929451204" target="_blank">
-                    <img src="./public/linkedin.png" alt="Logo do Linkedin">
-                </a>
-            </li>
-        </ul>
-    </section>
+        <section>
+            <div>
+                <h2>Canais e Streamers</h2>
+                <p>Lista de canais e transmissões que não perco!</p>
+                <ul class="channel__list">
+                    <li>
+                        <a href="https://www.twitch.tv/gaguinhoo157" target="_blank">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/d7d5b8df-55ce-4172-8a41-39538d633374-profile_image-70x70.png"
+                                alt="Imagem de gaguinhoo157">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/jenfirer" target="_blank">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0b32cf49-b16d-4a18-ab25-d247971f0124-profile_image-70x70.png"
+                                alt="Imagem de jenfirer">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/casimito" target="_blank">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-70x70.png"
+                                alt="Imagem de casimito">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/mark_martinsbr" target="_blank">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/9e4f7448-b662-4f37-b802-a9c474faef89-profile_image-70x70.png"
+                                alt="Imagem de mark_martinsbr">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Minhas Redes</h2>
+                <p>Se conecte comigo agora mesmo!</p>
+                <ul class="redes__list">
+                    <li>
+                        <a href="https://github.com/Enyus" target="_blank">
+                            <img src="./public/github.png" alt="Logo do Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/cssantini/" target="_blank">
+                            <img src="./public/instagram.png" alt="Logo do Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/c%C3%A1ssio-sandrigo-santini-929451204" target="_blank">
+                            <img src="./public/linkedin.png" alt="Logo do Linkedin">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
